@@ -16,7 +16,7 @@ public class CarroController {
 
     @GetMapping("/gol")
     public CarroDTO exibirGol() {
-        CarroDTO gol = new CarroDTO("gol", "vermelho", "mil", 2020);
+        CarroDTO gol = new CarroDTO("fiat", "cinza", "1.6", 2021);
         return gol;
     }
 
